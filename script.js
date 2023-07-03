@@ -81,11 +81,11 @@ var ITEManimate = ({
                         TweenMax.to(portfolioContainer, 1.8, {
                             width: "100%",
                             ease: ITEManimate.bezier(0.930, 0.035, 0.350, 0.815),
-                            top: "30%",
+                            top: "0%",
                             ease: ITEManimate.bezier(0.930, 0.035, 0.350, 0.815)
                         })
                         TweenMax.to(sceneContainer, 0.8, {
-                            top: "-70%",
+                            top: "-100%",
                             ease: ITEManimate.bezier(0.930, 0.035, 0.350, 0.815),
                         })
                     }
